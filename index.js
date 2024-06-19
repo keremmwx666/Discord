@@ -23,19 +23,17 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('')
+    .setApplicationId('1')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Recording')
-    .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setURL('https://www.youtube.com/watch?v=zqLMEulWcbQ') //Must be a youtube video link 
+    .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
+    .setName(' ')
+    .setDetails(`≡;- ꒰ °ᴄʟᴏʀɪɴᴅᴇ ꒱ [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1100708631311286342/1253002928785068052/4454897cc05c866d1682ea4b9a519cb5.gif?ex=66744569&is=6672f3e9&hm=768e8ae75d92ee9e84c72eed04d27fa1c3c185eaca5af82705b32dd0dc7181df&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('*:･ﾟ✧*:･ﾟ ᴋᴇʀᴇᴍᴍ 💓 ᴇʟᴇᴄᴛʀᴏ') //Text when you hover the Large image
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1100708631311286342/1253006791466422322/806acdf729a8ec7cc8117ae2abb2c048.png?ex=66744902&is=6672f782&hm=cfee13ace34143d9e0cdcc257b6e0f079ae314c532e07897e381943942630361&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText(' ') //Text when you hover the Small image
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
