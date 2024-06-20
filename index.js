@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName(' ')
     .setDetails(`≡;- ꒰ °ᴄʟᴏʀɪɴᴅᴇ ꒱ [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1100708631311286342/1253254710492926023/a26e21a8712e78a6cd9e7cd3f0be12a5.png?ex=66752fe7&is=6673de67&hm=f5c99a8c878c6013dfb424a0d5a5bc79fc0fa1373cb0d4270bec2f791237fb43&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1100708631311286342/1253255499621597195/544a2751c85f75739ce8fc7b66393951.png?ex=667530a3&is=6673df23&hm=df029ff8e7d5ea023d6ae879b0ed299eea4c94ca8fb952dd4c71d38bff186f05&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('*:･ﾟ✧*:･ﾟ ᴋᴇʀᴇᴍᴍ 💓') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1100708631311286342/1253254857666854912/18ba6345caed40be758cfbc2f89d24ff.png?ex=6675300a&is=6673de8a&hm=37a29e774a1002f40f5cef016ea7cbe26dbedbfac2b8145979f959c97b18875c&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText(' ') //Text when you hover the Small image
